@@ -30,7 +30,8 @@ def find_a(fruit)
   fruit = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
 end
 
-def sum_array
+def sum_array(total)
+  total = 
 end
 
 def add_s
