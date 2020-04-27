@@ -13,13 +13,17 @@ def sort_array_char_count(array)
   array.sort_by(&:length)
 end
 
-def swap_elements
+def swap_elements(names)
+  names = ["blake", "ashley", "scott"]
+
 end
 
-def reverse_array
+def reverse_array(num)
+  num = [12, 4, 35]
 end
 
-def kesha_maker
+def kesha_maker(names)
+  names = 
 end
 
 def find_a
