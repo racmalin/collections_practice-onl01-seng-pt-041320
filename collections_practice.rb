@@ -5,11 +5,11 @@ end
   
 def sort_array_desc(num)
   num = [25, 7, 14]
-  num.sort_by_desc
+  num.sort_by
 end
 
 def sort_array_char_count(strings)
-  strings = %w("dogs", "cat", "Horses")
+  strings = %w(dogs, cat, Horses)
 strings.sort_by(&:length)
 end
 
