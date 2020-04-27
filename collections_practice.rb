@@ -31,7 +31,7 @@ def find_a(fruit)
 end
 
 def sum_array(total)
-  total = 
+  total = [11,4,7,8,9,100,134]
 end
 
 def add_s
