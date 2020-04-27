@@ -28,8 +28,9 @@ def kesha_maker(array)
     item[2] = "$"
 end
 
-def find_a(fruit)
-  fruit = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
+def find_a(array)
+  array.find_all do |word|
+    word[0] == "a"
 end
 
 def sum_array(total)
