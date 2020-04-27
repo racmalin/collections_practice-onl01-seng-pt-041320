@@ -5,7 +5,7 @@ end
   
 def sort_array_desc(num)
   num = [25, 7, 14]
-  num.sort_by
+  num.sort_by.reverse!
 end
 
 def sort_array_char_count(array)
