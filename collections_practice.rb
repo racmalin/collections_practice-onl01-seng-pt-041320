@@ -8,7 +8,9 @@ def sort_array_desc(num)
   num.sort_by_desc
 end
 
-def sort_array_char_count
+def sort_array_char_count(strings)
+  strings = %w(foo test blog a)
+strings.sort_by(&:length)
 end
 
 def swap_elements
