@@ -33,9 +33,13 @@ def find_a(array)
     word[0] == "a"
 end
 
-def sum_array(total)
-  total = [11,4,7,8,9,100,134]
-end
+def sum_array(array)
+  sum = 0
+  array.each do |num|
+    sum+=num
+  end
+  sum
+end 
 
 def add_s
 end
