@@ -26,7 +26,8 @@ def kesha_maker(names)
   names = ["blake", "ashley", "scott"]
 end
 
-def find_a
+def find_a(fruit)
+  fruit = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
 end
 
 def sum_array
