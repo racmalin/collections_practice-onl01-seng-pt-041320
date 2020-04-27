@@ -23,8 +23,9 @@ def reverse_array(array)
   array.reverse
 end
 
-def kesha_maker(names)
-  names = ["blake", "ashley", "scott"]
+def kesha_maker(array)
+  array.each do |item|
+    item[2] = "$"
 end
 
 def find_a(fruit)
