@@ -23,7 +23,7 @@ def reverse_array(num)
 end
 
 def kesha_maker(names)
-  names = 
+  names = ["blake", "ashley", "scott"]
 end
 
 def find_a
