@@ -2,7 +2,7 @@ def sort_array_asc(num)
   num = [25, 7, 1]
   num.sort
 end
-end 
+# end 
 
 def sort_array_desc(num)
   num = [25, 7, 14]
