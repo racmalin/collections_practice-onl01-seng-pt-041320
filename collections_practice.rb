@@ -8,9 +8,9 @@ def sort_array_desc(num)
   num.sort_by
 end
 
-def sort_array_char_count(strings)
-  strings = %w(dogs, cat, Horses)
-strings.sort_by(&:length)
+def sort_array_char_count(array)
+  array = ["cat", "dogs", "Horses"]
+  array.sort_by(&:length)
 end
 
 def swap_elements
