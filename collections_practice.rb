@@ -9,7 +9,7 @@ def sort_array_desc(num)
 end
 
 def sort_array_char_count(strings)
-  strings = %w(foo test blog a)
+  strings = %w("dogs", "cat", "Horses")
 strings.sort_by(&:length)
 end
 
