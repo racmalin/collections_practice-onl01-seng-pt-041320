@@ -1,4 +1,4 @@
-def sort_array_asc(array)
+def sort_array_asc(num)
   array.sort = array.asc
 end
   
