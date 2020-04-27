@@ -3,7 +3,9 @@ def sort_array_asc(num)
   num.sort
 end
   
-def sort_array_desc
+def sort_array_desc(num)
+  num = [25, 7 14]
+  num.sort!
 end
 
 def sort_array_char_count
@@ -24,4 +26,12 @@ end
 def sum_array
 end
 
-def 
+def add_s
+end
+
+
+
+
+
+
+
